@@ -15,6 +15,7 @@ public class SimpleInterest {
 	}
 	public static void calculateSimpleInterest(double principle,double rate,double time)
 	{
+		System.out.println("welcome to pull process,....");
 		double simpleInterest = (principle * rate * time)/100;
 		System.out.println("The Simple Interest is "+simpleInterest+" for Principal "+principle +", Rate of Interest "+rate+" and Time "+time);
 	}
